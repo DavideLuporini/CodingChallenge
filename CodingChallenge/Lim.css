@@ -1,0 +1,76 @@
+body{
+  background: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+/* sfondo trasparente */
+#blackbox{
+  object-fit: scale-down;
+  width: 65%;
+  height: 770px;
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.container{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  text-align: center;
+}
+/* blocco sfondo titolo */
+header{
+  margin: auto;
+}
+#logo{
+  width: 24%;
+  height: auto;
+  margin-top: 12%;
+}
+#logo-text{
+  color: #00dd00;
+  margin: auto;
+  font-weight: bold;
+}
+nav{
+    text-align: center;
+    background-color: #00dd00;
+    width: 100%;
+    padding: 10px;
+}
+main{
+  text-align: left;
+  color: white
+}
+section{
+  margin-top: 25px;
+  line-height: 1.5;
+}
+.testopiccolo{
+  font-size: 15px;
+}
+.font-monopattino{
+  font-size: 20px;
+}
+#statoricaricamonGino22{
+  background-color: #f5b453;
+  width: 35%;
+  height: 25px;
+  border-radius: 5px;
+}
+#statoricaricamonMike24{
+  background-color: #1ec31e;
+  width: 65%;
+  height: 25px;
+  border-radius: 5px;
+}
+#statoricaricamonFede154{
+  background-color: #be4141;
+  width: 15%;
+  height: 25px;
+  border-radius: 5px;
+}
